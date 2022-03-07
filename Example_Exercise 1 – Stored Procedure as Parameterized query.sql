@@ -10,4 +10,4 @@ from		Project
 			JOIN Department on Project.DNum = Department.DNumber
 			JOIN Works_on on Works_on.Pno = Project.PNumber
 where		@ssn is null or Works_on.Essn = @ssn
-group by	PNumber, PName, DName, PLocation
+group by	PNumber, PName, DName, PLocation  
