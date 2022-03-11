@@ -1,6 +1,3 @@
-IF OBJECT_ID('usp_CreateDepartment') IS NOT NULL
-	DROP  PROCEDURE usp_CreateDepartment;	
-
 Create PROCEDURE usp_CreateDepartment
 (
 	@DName NVARCHAR(50), --Variable sent from cmd APP, is needed.
