@@ -1,4 +1,4 @@
-Create PROCEDURE usp_CreateDepartment
+Create or alter PROCEDURE usp_CreateDepartment
 (
 	@DName NVARCHAR(50), --Variable sent from cmd APP, is needed.
 	@MgrSSN INT --Variable sent from cmd APP, is needed.
