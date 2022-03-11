@@ -13,5 +13,5 @@ BEGIN
 	DELETE FROM Project WHERE Project.DNum = @DNumber
 	DELETE FROM Works_on WHERE Works_on.Pno = @Pno
 	
-	RETURN SCOPE_IDENTITY();
+	--RETURN SCOPE_IDENTITY();
 END
