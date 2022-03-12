@@ -1,4 +1,4 @@
-Create PROCEDURE usp_DeleteDepartment
+Create or alter PROCEDURE usp_DeleteDepartment
 (
 	@DNumber INT --Variable sent from cmd APP, is needed.
 )

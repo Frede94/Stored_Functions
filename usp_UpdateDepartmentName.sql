@@ -1,4 +1,4 @@
-create PROCEDURE usp_UpdateDepartmentName
+create or alter PROCEDURE usp_UpdateDepartmentName
 (
 	@DName NVARCHAR(50), --Variable sent from cmd APP, is needed.
 	@DNumber INT --Variable sent from cmd APP, is needed.

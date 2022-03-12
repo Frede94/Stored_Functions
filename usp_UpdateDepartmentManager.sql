@@ -1,4 +1,4 @@
-create PROCEDURE usp_UpdateDepartmentManager
+create or alter PROCEDURE usp_UpdateDepartmentManager
 (
 	@DNumber INT, --Variable sent from cmd APP, is needed.
 	@MgrSSN INT	--Variable sent from cmd APP, is needed.

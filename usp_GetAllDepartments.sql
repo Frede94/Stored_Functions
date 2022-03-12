@@ -1,4 +1,4 @@
-Create PROCEDURE usp_GetAllDepartments
+Create or alter PROCEDURE usp_GetAllDepartments
 AS
 BEGIN
 		SELECT *, --Select all from Department

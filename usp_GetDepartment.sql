@@ -1,4 +1,4 @@
-create PROCEDURE usp_GetDepartment
+create or alter PROCEDURE usp_GetDepartment
 (
 	@Dnumber INT --Variable sent from cmd APP, is needed.
 )
