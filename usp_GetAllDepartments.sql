@@ -9,4 +9,6 @@ BEGIN
 		)
 		AS EmpCount
 		FROM Department
+
+		RETURN;
 END

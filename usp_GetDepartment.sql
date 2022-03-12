@@ -14,4 +14,6 @@ BEGIN
 		AS TempTable
 		
 		WHERE @Dnumber = DNumber --Instead of Getting all, this sets so we only get the chosen Department (@Dnumber)
+
+		RETURN;
 END

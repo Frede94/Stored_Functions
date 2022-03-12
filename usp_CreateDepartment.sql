@@ -15,6 +15,6 @@ BEGIN
 		INSERT INTO Department(DName, DNumber, MgrSSN, MgrStartDate) --Insert the new Department with chosen variables and current date (GETDATE())
 			VALUES (@DName, @DNumber, @MgrSSN, GetDate())
 
-	RETURN SCOPE_IDENTITY(); -- Returns Identity from this Scope.
+	RETURN @DNumber; -- Returns Identity from this Scope.
 	--RETURN @@IDENTITY -- Returns latest Identity, Could be from another function/Procedure.
 END
